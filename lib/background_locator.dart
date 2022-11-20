@@ -16,16 +16,13 @@ class BackgroundLocator {
   static const MethodChannel _channel = const MethodChannel(Keys.CHANNEL_ID);
 
   static Future<void> initialize() async {
-    final CallbackHandle callback =
-        PluginUtilities.getCallbackHandle(callbackDispatcher)!;
-    await _channel.invokeMethod(Keys.METHOD_PLUGIN_INITIALIZE_SERVICE,
-        {Keys.ARG_CALLBACK_DISPATCHER: callback.toRawHandle()});
+    final CallbackHandle callback = PluginUtilities.getCallbackHandle(callbackDispatcher)!;
+    await _channel.invokeMethod(Keys.METHOD_PLUGIN_INITIALIZE_SERVICE, {Keys.ARG_CALLBACK_DISPATCHER: callback.toRawHandle()});
   }
 
   static WidgetsBinding? get _widgetsBinding => WidgetsBinding.instance;
 
-  static Future<void> registerLocationUpdate(
-      void Function(LocationDto) callback,
+  static Future<void> registerLocationUpdate(void Function(LocationDto) callback,
       {void Function(Map<String, dynamic>)? initCallback,
       Map<String, dynamic> initDataCallback = const {},
       void Function()? disposeCallback,
@@ -37,15 +34,9 @@ class BackgroundLocator {
     }
 
     final args = SettingsUtil.getArgumentsMap(
-        callback: callback,
-        initCallback: initCallback,
-        initDataCallback: initDataCallback,
-        disposeCallback: disposeCallback,
-        androidSettings: androidSettings,
-        iosSettings: iosSettings);
+        callback: callback, initCallback: initCallback, initDataCallback: initDataCallback, disposeCallback: disposeCallback, androidSettings: androidSettings, iosSettings: iosSettings);
 
-    await _channel.invokeMethod(
-        Keys.METHOD_PLUGIN_REGISTER_LOCATION_UPDATE, args);
+    await _channel.invokeMethod(Keys.METHOD_PLUGIN_REGISTER_LOCATION_UPDATE, args);
   }
 
   static Future<void> unRegisterLocationUpdate() async {
@@ -53,17 +44,14 @@ class BackgroundLocator {
   }
 
   static Future<bool> isRegisterLocationUpdate() async {
-    return (await _channel
-        .invokeMethod<bool>(Keys.METHOD_PLUGIN_IS_REGISTER_LOCATION_UPDATE))!;
+    return (await _channel.invokeMethod<bool>(Keys.METHOD_PLUGIN_IS_REGISTER_LOCATION_UPDATE))!;
   }
 
   static Future<bool> isServiceRunning() async {
-    return (await _channel
-        .invokeMethod<bool>(Keys.METHOD_PLUGIN_IS_SERVICE_RUNNING))!;
+    return (await _channel.invokeMethod<bool>(Keys.METHOD_PLUGIN_IS_SERVICE_RUNNING))!;
   }
 
-  static Future<void> updateNotificationText(
-      {String? title, String? msg, String? bigMsg}) async {
+  static Future<void> updateNotificationText({String? title, String? msg, String? bigMsg}) async {
     final Map<String, dynamic> arg = {};
 
     if (title != null) {
@@ -79,5 +67,10 @@ class BackgroundLocator {
     }
 
     await _channel.invokeMethod(Keys.METHOD_PLUGIN_UPDATE_NOTIFICATION, arg);
+  }
+
+    static Future<String?> get getCellInfo async {
+    final String? version = await _channel.invokeMethod('cell_info');
+    return version;
   }
 }
