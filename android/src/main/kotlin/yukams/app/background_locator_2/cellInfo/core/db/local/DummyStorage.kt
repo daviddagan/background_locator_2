@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.db.local
+package yukams.app.background_locator_2.cellInfo.core.db.local
 
 /**
  * Represents local storage implementation whose values are immutable constants

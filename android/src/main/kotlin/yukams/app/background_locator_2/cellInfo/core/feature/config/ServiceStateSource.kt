@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.feature.config
+package yukams.app.background_locator_2.cellInfo.core.feature.config
 
 import android.Manifest
 import android.annotation.TargetApi
@@ -6,8 +6,8 @@ import android.os.Build
 import android.telephony.*
 import androidx.annotation.RequiresApi
 import androidx.annotation.RequiresPermission
-import cz.mroczis.netmonster.core.cache.TelephonyCache
-import cz.mroczis.netmonster.core.util.SingleEventPhoneStateListener
+import yukams.app.background_locator_2.cellInfo.core.cache.TelephonyCache
+import yukams.app.background_locator_2.cellInfo.core.util.SingleEventPhoneStateListener
 
 /**
  * On Android N and older fetches [ServiceState] using service state listener.

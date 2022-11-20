@@ -1,10 +1,10 @@
-package cz.mroczis.netmonster.core.factory
+package yukams.app.background_locator_2.cellInfo.core.factory
 
 import android.content.Context
-import cz.mroczis.netmonster.core.db.local.DummyStorage
-import cz.mroczis.netmonster.core.db.local.ILocalStorage
-import cz.mroczis.netmonster.core.db.local.LocalStorage
-import cz.mroczis.netmonster.core.model.NetMonsterConfig
+import yukams.app.background_locator_2.cellInfo.core.db.local.DummyStorage
+import yukams.app.background_locator_2.cellInfo.core.db.local.ILocalStorage
+import yukams.app.background_locator_2.cellInfo.core.db.local.LocalStorage
+import yukams.app.background_locator_2.cellInfo.core.model.NetMonsterConfig
 
 /**
  * Internal factory producing [ILocalStorage]

@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.model.band
+package yukams.app.background_locator_2.cellInfo.core.model.band
 
 data class AggregatedBandLte(
     /**

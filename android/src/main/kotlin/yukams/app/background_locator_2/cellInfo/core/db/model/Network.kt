@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.db.model
+package yukams.app.background_locator_2.cellInfo.core.db.model
 
 import androidx.annotation.IntDef
 

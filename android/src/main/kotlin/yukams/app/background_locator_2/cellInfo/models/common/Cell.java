@@ -1,4 +1,4 @@
-package yukams.app.background_locator_2.models.common;
+package yukams.app.background_locator_2.cellInfo.models.common;
 
 import android.Manifest;
 

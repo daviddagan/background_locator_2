@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.model.nr
+package yukams.app.background_locator_2.cellInfo.core.model.nr
 
 data class NrNsaState(
     /**

@@ -1,9 +1,9 @@
-package yukams.app.background_locator_2.models.cdma
+package yukams.app.background_locator_2.cellInfo.models.cdma
 
-import yukams.app.background_locator_2.models.CellData
-import yukams.app.background_locator_2.models.common.Band
-import yukams.app.background_locator_2.models.common.Network
-import cz.mroczis.netmonster.core.model.cell.CellCdma
+import yukams.app.background_locator_2.cellInfo.models.CellData
+import yukams.app.background_locator_2.cellInfo.models.common.Band
+import yukams.app.background_locator_2.cellInfo.models.common.Network
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellCdma
 
 fun getCdma(cell: CellCdma,cellData: CellData): CellCDMA {
 

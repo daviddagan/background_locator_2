@@ -1,16 +1,16 @@
-package cz.mroczis.netmonster.core.telephony.mapper.cell
+package yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell
 
 import android.annotation.TargetApi
 import android.os.Build
 import android.telephony.CellIdentityTdscdma
 import android.telephony.CellSignalStrengthTdscdma
-import cz.mroczis.netmonster.core.db.BandTableTdscdma
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.band.BandTdscdma
-import cz.mroczis.netmonster.core.model.cell.CellTdscdma
-import cz.mroczis.netmonster.core.model.connection.IConnection
-import cz.mroczis.netmonster.core.model.signal.SignalTdscdma
-import cz.mroczis.netmonster.core.util.inRangeOrNull
+import yukams.app.background_locator_2.cellInfo.core.db.BandTableTdscdma
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.band.BandTdscdma
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellTdscdma
+import yukams.app.background_locator_2.cellInfo.core.model.connection.IConnection
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalTdscdma
+import yukams.app.background_locator_2.cellInfo.core.util.inRangeOrNull
 
 private val REGEX_BIT_ERROR = "ber=([^ ]*)".toRegex()
 private val REGEX_RSSI = "rssi=([^ ]*)".toRegex()

@@ -1,7 +1,7 @@
-package cz.mroczis.netmonster.core.model
+package yukams.app.background_locator_2.cellInfo.core.model
 
-import cz.mroczis.netmonster.core.db.MccIsoTable
-import cz.mroczis.netmonster.core.util.inRangeOrNull
+import yukams.app.background_locator_2.cellInfo.core.db.MccIsoTable
+import yukams.app.background_locator_2.cellInfo.core.util.inRangeOrNull
 
 /**
  * Representation of network based on MCC, MNC codes

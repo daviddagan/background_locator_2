@@ -1,11 +1,11 @@
-package yukams.app.background_locator_2.models.wcdma
+package yukams.app.background_locator_2.cellInfo.models.wcdma
 
-import yukams.app.background_locator_2.models.CellData
-import yukams.app.background_locator_2.models.common.Network
-import cz.mroczis.netmonster.core.model.band.BandWcdma
-import cz.mroczis.netmonster.core.model.cell.CellWcdma
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.model.signal.SignalWcdma
+import yukams.app.background_locator_2.cellInfo.models.CellData
+import yukams.app.background_locator_2.cellInfo.models.common.Network
+import yukams.app.background_locator_2.cellInfo.core.model.band.BandWcdma
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellWcdma
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalWcdma
 
 fun getWcdma(cell: CellWcdma, cellData: CellData): CellWCDMA {
 
@@ -97,7 +97,7 @@ fun getWcdma(cell: CellWcdma, cellData: CellData): CellWCDMA {
 
 fun getWcdmaFake(
     cell: CellWcdma = CellWcdma(
-        network = cz.mroczis.netmonster.core.model.Network(
+        network = yukams.app.background_locator_2.cellInfo.core.model.Network(
             "",
             "",
             ""

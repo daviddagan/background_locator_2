@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package cz.mroczis.netmonster.core.util
+package yukams.app.background_locator_2.cellInfo.core.util
 
 import android.content.Context
 import android.hardware.display.DisplayManager

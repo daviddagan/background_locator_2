@@ -1,9 +1,9 @@
-package cz.mroczis.netmonster.core.model.signal
+package yukams.app.background_locator_2.cellInfo.core.model.signal
 
 import android.os.Build
 import androidx.annotation.IntRange
-import cz.mroczis.netmonster.core.model.annotation.SinceSdk
-import cz.mroczis.netmonster.core.util.minOrNotnull
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
+import yukams.app.background_locator_2.cellInfo.core.util.minOrNotnull
 
 data class SignalGsm(
     /**
@@ -46,7 +46,7 @@ data class SignalGsm(
     val asu: Int? = rssi?.plus(113)?.div(2)
 
     /**
-     * Calculates approximate distance to [cz.mroczis.netmonster.core.model.cell.CellGsm]
+     * Calculates approximate distance to [yukams.app.background_locator_2.cellInfo.core.model.cell.CellGsm]
      * which is assigned to this object.
      */
     fun getDistanceToCell() = timingAdvance?.times(ONE_TA_IN_METERS)

@@ -1,7 +1,7 @@
-package cz.mroczis.netmonster.core.feature.postprocess
+package yukams.app.background_locator_2.cellInfo.core.feature.postprocess
 
-import cz.mroczis.netmonster.core.model.cell.*
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.cell.*
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
 
 /**
  * Attempts to find one primary cell if none of cells is marked as primary.

@@ -1,7 +1,7 @@
-package cz.mroczis.netmonster.core.db
+package yukams.app.background_locator_2.cellInfo.core.db
 
-import cz.mroczis.netmonster.core.db.model.NetworkType
-import cz.mroczis.netmonster.core.model.nr.NrNsaState
+import yukams.app.background_locator_2.cellInfo.core.db.model.NetworkType
+import yukams.app.background_locator_2.cellInfo.core.model.nr.NrNsaState
 
 /**
  * Mapping between AOSP's constants and ours which are nearly the same

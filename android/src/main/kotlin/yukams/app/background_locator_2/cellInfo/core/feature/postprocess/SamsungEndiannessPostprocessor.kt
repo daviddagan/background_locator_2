@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.feature.postprocess
+package yukams.app.background_locator_2.cellInfo.core.feature.postprocess
 
 import android.Manifest
 import android.os.Build
@@ -6,9 +6,9 @@ import android.telephony.TelephonyManager
 import android.telephony.gsm.GsmCellLocation
 import androidx.annotation.RequiresPermission
 import androidx.annotation.VisibleForTesting
-import cz.mroczis.netmonster.core.model.cell.*
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.util.isSamsung
+import yukams.app.background_locator_2.cellInfo.core.model.cell.*
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.util.isSamsung
 
 /**
  * Samsung phones (e.g. b0sxeea) on Android 12+ have endianness issue (bytes are

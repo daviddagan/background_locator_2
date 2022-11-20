@@ -1,6 +1,6 @@
-package cz.mroczis.netmonster.core.telephony.mapper
+package yukams.app.background_locator_2.cellInfo.core.telephony.mapper
 
-import cz.mroczis.netmonster.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
 
 /**
  * Mapper calls transforms AOSP's representation of model into ours

@@ -1,9 +1,9 @@
-package cz.mroczis.netmonster.core.feature.postprocess
+package yukams.app.background_locator_2.cellInfo.core.feature.postprocess
 
-import cz.mroczis.netmonster.core.db.BandTableGsm
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.cell.*
-import cz.mroczis.netmonster.core.model.connection.IConnection
+import yukams.app.background_locator_2.cellInfo.core.db.BandTableGsm
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.cell.*
+import yukams.app.background_locator_2.cellInfo.core.model.connection.IConnection
 
 /**
  * Attempts to assign valid PLMN ([Network]) to cells which do not have valid value.

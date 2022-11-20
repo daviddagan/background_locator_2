@@ -1,7 +1,7 @@
-package cz.mroczis.netmonster.core.model.signal
+package yukams.app.background_locator_2.cellInfo.core.model.signal
 
 import androidx.annotation.IntRange
-import cz.mroczis.netmonster.core.model.annotation.DoubleRange
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.DoubleRange
 
 data class SignalCdma(
     /**

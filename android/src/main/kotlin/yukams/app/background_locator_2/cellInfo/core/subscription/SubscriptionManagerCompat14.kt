@@ -1,9 +1,9 @@
-package cz.mroczis.netmonster.core.subscription
+package yukams.app.background_locator_2.cellInfo.core.subscription
 
 import android.Manifest
 import android.content.Context
 import androidx.annotation.RequiresPermission
-import cz.mroczis.netmonster.core.model.SubscribedNetwork
+import yukams.app.background_locator_2.cellInfo.core.model.SubscribedNetwork
 
 internal open class SubscriptionManagerCompat14(
     internal val context: Context

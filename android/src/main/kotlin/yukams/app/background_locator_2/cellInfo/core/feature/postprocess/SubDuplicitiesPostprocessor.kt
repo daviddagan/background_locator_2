@@ -1,12 +1,12 @@
-package cz.mroczis.netmonster.core.feature.postprocess
+package yukams.app.background_locator_2.cellInfo.core.feature.postprocess
 
 import android.Manifest
 import android.os.Build
 import androidx.annotation.RequiresPermission
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.subscription.ISubscriptionManagerCompat
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.subscription.ISubscriptionManagerCompat
 
 /**
  * Solves the case for Dual SIM phones when [android.telephony.TelephonyManager.getAllCellInfo]

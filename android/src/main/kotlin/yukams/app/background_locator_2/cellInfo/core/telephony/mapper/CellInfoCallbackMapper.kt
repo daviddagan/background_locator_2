@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.telephony.mapper
+package yukams.app.background_locator_2.cellInfo.core.telephony.mapper
 
 import android.Manifest
 import android.annotation.TargetApi
@@ -6,7 +6,7 @@ import android.os.Build
 import android.telephony.CellInfo
 import android.telephony.TelephonyManager
 import androidx.annotation.RequiresPermission
-import cz.mroczis.netmonster.core.model.model.CellError
+import yukams.app.background_locator_2.cellInfo.core.model.model.CellError
 
 /**
  * Maps [TelephonyManager.CellInfoCallback] into our world.

@@ -1,7 +1,7 @@
-package cz.mroczis.netmonster.core.telephony.network
+package yukams.app.background_locator_2.cellInfo.core.telephony.network
 
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.telephony.ITelephonyManagerCompat
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.telephony.ITelephonyManagerCompat
 
 /**
  * Interface that allows us obtain [Network].

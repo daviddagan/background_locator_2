@@ -1,18 +1,18 @@
-package cz.mroczis.netmonster.core.model.cell
+package yukams.app.background_locator_2.cellInfo.core.model.cell
 
 import android.os.Build
-import cz.mroczis.netmonster.core.Milliseconds
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.annotation.SinceSdk
-import cz.mroczis.netmonster.core.model.band.BandNr
-import cz.mroczis.netmonster.core.model.cell.CellNr.Companion.CID_MAX
-import cz.mroczis.netmonster.core.model.cell.CellNr.Companion.CID_MIN
-import cz.mroczis.netmonster.core.model.cell.CellNr.Companion.PCI_MAX
-import cz.mroczis.netmonster.core.model.cell.CellNr.Companion.PCI_MIN
-import cz.mroczis.netmonster.core.model.cell.CellNr.Companion.TAC_MAX
-import cz.mroczis.netmonster.core.model.cell.CellNr.Companion.TAC_MIN
-import cz.mroczis.netmonster.core.model.connection.IConnection
-import cz.mroczis.netmonster.core.model.signal.SignalNr
+import yukams.app.background_locator_2.cellInfo.core.Milliseconds
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
+import yukams.app.background_locator_2.cellInfo.core.model.band.BandNr
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellNr.Companion.CID_MAX
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellNr.Companion.CID_MIN
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellNr.Companion.PCI_MAX
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellNr.Companion.PCI_MIN
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellNr.Companion.TAC_MAX
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellNr.Companion.TAC_MIN
+import yukams.app.background_locator_2.cellInfo.core.model.connection.IConnection
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalNr
 
 @SinceSdk(Build.VERSION_CODES.Q)
 data class CellNr(

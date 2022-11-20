@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.feature
+package yukams.app.background_locator_2.cellInfo.core.feature
 
 import android.Manifest
 import android.annotation.TargetApi
@@ -6,15 +6,15 @@ import android.os.Build
 import android.telephony.ServiceState
 import androidx.annotation.RequiresPermission
 import androidx.annotation.VisibleForTesting
-import cz.mroczis.netmonster.core.INetMonster
-import cz.mroczis.netmonster.core.db.model.NetworkType
-import cz.mroczis.netmonster.core.model.cell.CellLte
-import cz.mroczis.netmonster.core.model.cell.CellNr
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.model.connection.SecondaryConnection
-import cz.mroczis.netmonster.core.model.nr.NrNsaState
-import cz.mroczis.netmonster.core.telephony.ITelephonyManagerCompat
+import yukams.app.background_locator_2.cellInfo.core.INetMonster
+import yukams.app.background_locator_2.cellInfo.core.db.model.NetworkType
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellLte
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellNr
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.connection.SecondaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.nr.NrNsaState
+import yukams.app.background_locator_2.cellInfo.core.telephony.ITelephonyManagerCompat
 import java.util.*
 
 /**

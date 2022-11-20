@@ -1,8 +1,8 @@
-package yukams.app.background_locator_2.models.gsm;
+package yukams.app.background_locator_2.cellInfo.models.gsm;
 
 import androidx.annotation.Keep;
 
-import yukams.app.background_locator_2.models.common.Band;
+import yukams.app.background_locator_2.cellInfo.models.common.Band;
 
 import java.io.Serializable;
 @Keep

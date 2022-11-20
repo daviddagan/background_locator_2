@@ -1,16 +1,16 @@
-package cz.mroczis.netmonster.core.feature.merge
+package yukams.app.background_locator_2.cellInfo.core.feature.merge
 
-import cz.mroczis.netmonster.core.model.cell.CellGsm
-import cz.mroczis.netmonster.core.model.cell.CellWcdma
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.connection.NoneConnection
-import cz.mroczis.netmonster.core.model.connection.SecondaryConnection
-import cz.mroczis.netmonster.core.model.signal.SignalGsm
-import cz.mroczis.netmonster.core.model.signal.SignalWcdma
-import cz.mroczis.netmonster.core.telephony.ITelephonyManagerCompat
-import cz.mroczis.netmonster.core.util.maxOrNotnull
-import cz.mroczis.netmonster.core.util.minOrNotnull
-import cz.mroczis.netmonster.core.util.removeFirstOrNull
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellGsm
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellWcdma
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.connection.NoneConnection
+import yukams.app.background_locator_2.cellInfo.core.model.connection.SecondaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalGsm
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalWcdma
+import yukams.app.background_locator_2.cellInfo.core.telephony.ITelephonyManagerCompat
+import yukams.app.background_locator_2.cellInfo.core.util.maxOrNotnull
+import yukams.app.background_locator_2.cellInfo.core.util.minOrNotnull
+import yukams.app.background_locator_2.cellInfo.core.util.removeFirstOrNull
 
 /**
  * Merges not primary cells (with [NoneConnection], [SecondaryConnection] as connection) from two sources:

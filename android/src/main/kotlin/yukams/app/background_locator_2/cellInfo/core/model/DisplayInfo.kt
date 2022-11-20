@@ -1,7 +1,7 @@
-package cz.mroczis.netmonster.core.model
+package yukams.app.background_locator_2.cellInfo.core.model
 
-import cz.mroczis.netmonster.core.db.NetworkTypeTable
-import cz.mroczis.netmonster.core.db.model.NetworkType
+import yukams.app.background_locator_2.cellInfo.core.db.NetworkTypeTable
+import yukams.app.background_locator_2.cellInfo.core.db.model.NetworkType
 
 data class DisplayInfo(
     /**

@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.db.local
+package yukams.app.background_locator_2.cellInfo.core.db.local
 
 import android.content.Context
 import android.os.Build

@@ -1,9 +1,9 @@
-package cz.mroczis.netmonster.core.db
+package yukams.app.background_locator_2.cellInfo.core.db
 
-import cz.mroczis.netmonster.core.db.model.BandEntity
-import cz.mroczis.netmonster.core.db.model.IBandEntity
-import cz.mroczis.netmonster.core.model.band.BandLte
-import cz.mroczis.netmonster.core.model.band.IBand
+import yukams.app.background_locator_2.cellInfo.core.db.model.BandEntity
+import yukams.app.background_locator_2.cellInfo.core.db.model.IBandEntity
+import yukams.app.background_locator_2.cellInfo.core.model.band.BandLte
+import yukams.app.background_locator_2.cellInfo.core.model.band.IBand
 
 /**
  * [3GPP 36.101](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=2411)

@@ -1,15 +1,15 @@
-package cz.mroczis.netmonster.core.telephony.mapper
+package yukams.app.background_locator_2.cellInfo.core.telephony.mapper
 
 import android.Manifest
 import android.annotation.TargetApi
 import android.os.Build
 import android.telephony.*
 import androidx.annotation.RequiresPermission
-import cz.mroczis.netmonster.core.Milliseconds
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.telephony.mapper.cell.mapCell
-import cz.mroczis.netmonster.core.telephony.mapper.cell.mapConnection
-import cz.mroczis.netmonster.core.telephony.mapper.cell.mapSignal
+import yukams.app.background_locator_2.cellInfo.core.Milliseconds
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell.mapCell
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell.mapConnection
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell.mapSignal
 
 /**
  * Transforms result of [TelephonyManager.getAllCellInfo] into our list

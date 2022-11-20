@@ -1,10 +1,10 @@
-package cz.mroczis.netmonster.core.feature.postprocess
+package yukams.app.background_locator_2.cellInfo.core.feature.postprocess
 
-import cz.mroczis.netmonster.core.model.cell.*
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.util.isHuawei
-import cz.mroczis.netmonster.core.util.isMediatek
-import cz.mroczis.netmonster.core.util.isSamsung
+import yukams.app.background_locator_2.cellInfo.core.model.cell.*
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.util.isHuawei
+import yukams.app.background_locator_2.cellInfo.core.util.isMediatek
+import yukams.app.background_locator_2.cellInfo.core.util.isSamsung
 
 /**
  * Some cells seem to pass all validations and act like they are correct but based on

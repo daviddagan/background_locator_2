@@ -1,8 +1,8 @@
-package cz.mroczis.netmonster.core.feature.postprocess
+package yukams.app.background_locator_2.cellInfo.core.feature.postprocess
 
-import cz.mroczis.netmonster.core.model.cell.CellCdma
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellCdma
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
 
 /**
  * CDMA cells do not have PLMN (MCC, MNC) by design. However when device is also connected

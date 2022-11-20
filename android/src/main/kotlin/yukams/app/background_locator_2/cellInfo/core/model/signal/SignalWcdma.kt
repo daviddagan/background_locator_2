@@ -1,8 +1,8 @@
-package cz.mroczis.netmonster.core.model.signal
+package yukams.app.background_locator_2.cellInfo.core.model.signal
 
 import android.os.Build
 import androidx.annotation.IntRange
-import cz.mroczis.netmonster.core.model.annotation.SinceSdk
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
 
 
 data class SignalWcdma(

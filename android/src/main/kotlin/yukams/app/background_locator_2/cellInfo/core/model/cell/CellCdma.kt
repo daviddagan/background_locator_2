@@ -1,12 +1,12 @@
-package cz.mroczis.netmonster.core.model.cell
+package yukams.app.background_locator_2.cellInfo.core.model.cell
 
 import androidx.annotation.IntRange
-import cz.mroczis.netmonster.core.Milliseconds
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.annotation.DoubleRange
-import cz.mroczis.netmonster.core.model.band.IBand
-import cz.mroczis.netmonster.core.model.connection.IConnection
-import cz.mroczis.netmonster.core.model.signal.SignalCdma
+import yukams.app.background_locator_2.cellInfo.core.Milliseconds
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.DoubleRange
+import yukams.app.background_locator_2.cellInfo.core.model.band.IBand
+import yukams.app.background_locator_2.cellInfo.core.model.connection.IConnection
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalCdma
 
 data class CellCdma(
     override val network: Network? = null,

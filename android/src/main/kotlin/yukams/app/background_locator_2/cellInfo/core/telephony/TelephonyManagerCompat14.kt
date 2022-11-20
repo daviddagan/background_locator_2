@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.telephony
+package yukams.app.background_locator_2.cellInfo.core.telephony
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -10,22 +10,22 @@ import android.telephony.SignalStrength
 import android.telephony.TelephonyManager
 import androidx.annotation.RequiresPermission
 import androidx.annotation.WorkerThread
-import cz.mroczis.netmonster.core.callback.CellCallbackError
-import cz.mroczis.netmonster.core.callback.CellCallbackSuccess
-import cz.mroczis.netmonster.core.db.NetworkTypeTable
-import cz.mroczis.netmonster.core.db.model.NetworkType
-import cz.mroczis.netmonster.core.feature.config.CellLocationSource
-import cz.mroczis.netmonster.core.feature.config.ServiceStateSource
-import cz.mroczis.netmonster.core.feature.config.SignalStrengthsSource
-import cz.mroczis.netmonster.core.model.DisplayInfo
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.model.CellError
-import cz.mroczis.netmonster.core.telephony.mapper.CellInfoMapper
-import cz.mroczis.netmonster.core.telephony.mapper.CellLocationMapper
-import cz.mroczis.netmonster.core.telephony.mapper.NeighbouringCellInfoMapper
-import cz.mroczis.netmonster.core.telephony.network.NetworkOperatorGetter
-import cz.mroczis.netmonster.core.telephony.network.SimOperatorGetter
+import yukams.app.background_locator_2.cellInfo.core.callback.CellCallbackError
+import yukams.app.background_locator_2.cellInfo.core.callback.CellCallbackSuccess
+import yukams.app.background_locator_2.cellInfo.core.db.NetworkTypeTable
+import yukams.app.background_locator_2.cellInfo.core.db.model.NetworkType
+import yukams.app.background_locator_2.cellInfo.core.feature.config.CellLocationSource
+import yukams.app.background_locator_2.cellInfo.core.feature.config.ServiceStateSource
+import yukams.app.background_locator_2.cellInfo.core.feature.config.SignalStrengthsSource
+import yukams.app.background_locator_2.cellInfo.core.model.DisplayInfo
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.model.CellError
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.CellInfoMapper
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.CellLocationMapper
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.NeighbouringCellInfoMapper
+import yukams.app.background_locator_2.cellInfo.core.telephony.network.NetworkOperatorGetter
+import yukams.app.background_locator_2.cellInfo.core.telephony.network.SimOperatorGetter
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 

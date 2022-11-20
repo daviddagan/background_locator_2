@@ -1,10 +1,10 @@
-package cz.mroczis.netmonster.core.feature.merge
+package yukams.app.background_locator_2.cellInfo.core.feature.merge
 
 import android.os.Build
-import cz.mroczis.netmonster.core.model.annotation.SinceSdk
-import cz.mroczis.netmonster.core.model.annotation.TillSdk
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.telephony.ITelephonyManagerCompat
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.TillSdk
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.telephony.ITelephonyManagerCompat
 
 /**
  * Represents unique identifier of methods that might be used

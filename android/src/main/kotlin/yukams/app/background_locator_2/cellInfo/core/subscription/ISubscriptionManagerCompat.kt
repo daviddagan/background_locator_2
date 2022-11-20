@@ -1,12 +1,12 @@
-package cz.mroczis.netmonster.core.subscription
+package yukams.app.background_locator_2.cellInfo.core.subscription
 
 import android.Manifest
 import android.os.Build
 import android.telephony.ServiceState
 import androidx.annotation.RequiresPermission
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.SubscribedNetwork
-import cz.mroczis.netmonster.core.model.annotation.SinceSdk
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.SubscribedNetwork
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
 
 interface ISubscriptionManagerCompat {
 

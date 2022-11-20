@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.telephony.mapper
+package yukams.app.background_locator_2.cellInfo.core.telephony.mapper
 
 import android.Manifest
 import android.os.Build
@@ -7,22 +7,22 @@ import android.telephony.cdma.CdmaCellLocation
 import android.telephony.gsm.GsmCellLocation
 import androidx.annotation.RequiresPermission
 import androidx.annotation.WorkerThread
-import cz.mroczis.netmonster.core.db.NetworkTypeTable
-import cz.mroczis.netmonster.core.db.model.NetworkType
-import cz.mroczis.netmonster.core.feature.config.CellLocationSource
-import cz.mroczis.netmonster.core.feature.config.SignalStrengthsSource
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.cell.CellGsm
-import cz.mroczis.netmonster.core.model.cell.CellWcdma
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.signal.SignalLte
-import cz.mroczis.netmonster.core.model.signal.SignalWcdma
-import cz.mroczis.netmonster.core.telephony.mapper.cell.mapCdma
-import cz.mroczis.netmonster.core.telephony.mapper.cell.mapGsm
-import cz.mroczis.netmonster.core.telephony.mapper.cell.mapLte
-import cz.mroczis.netmonster.core.telephony.mapper.cell.mapWcdma
-import cz.mroczis.netmonster.core.util.Reflection
-import cz.mroczis.netmonster.core.util.inRangeOrNull
+import yukams.app.background_locator_2.cellInfo.core.db.NetworkTypeTable
+import yukams.app.background_locator_2.cellInfo.core.db.model.NetworkType
+import yukams.app.background_locator_2.cellInfo.core.feature.config.CellLocationSource
+import yukams.app.background_locator_2.cellInfo.core.feature.config.SignalStrengthsSource
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellGsm
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellWcdma
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalLte
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalWcdma
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell.mapCdma
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell.mapGsm
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell.mapLte
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell.mapWcdma
+import yukams.app.background_locator_2.cellInfo.core.util.Reflection
+import yukams.app.background_locator_2.cellInfo.core.util.inRangeOrNull
 
 /**
  * Transforms [TelephonyManager.getCellLocation] into our representation.

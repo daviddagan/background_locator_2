@@ -1,8 +1,8 @@
-package yukams.app.background_locator_2.models.gsm
+package yukams.app.background_locator_2.cellInfo.models.gsm
 
-import yukams.app.background_locator_2.models.CellData
-import yukams.app.background_locator_2.models.common.Network
-import cz.mroczis.netmonster.core.model.cell.CellGsm
+import yukams.app.background_locator_2.cellInfo.models.CellData
+import yukams.app.background_locator_2.cellInfo.models.common.Network
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellGsm
 
 fun getGsm(cell: CellGsm, cellData: CellData): CellGSM {
 

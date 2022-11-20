@@ -1,8 +1,8 @@
-package cz.mroczis.netmonster.core.cache
+package yukams.app.background_locator_2.cellInfo.core.cache
 
 import android.telephony.TelephonyManager
-import cz.mroczis.netmonster.core.Milliseconds
-import cz.mroczis.netmonster.core.cache.TelephonyCache.LIFETIME
+import yukams.app.background_locator_2.cellInfo.core.Milliseconds
+import yukams.app.background_locator_2.cellInfo.core.cache.TelephonyCache.LIFETIME
 import java.util.concurrent.ConcurrentHashMap
 import java.util.concurrent.ConcurrentLinkedQueue
 

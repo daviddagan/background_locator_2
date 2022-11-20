@@ -1,9 +1,9 @@
-package yukams.app.background_locator_2.models.tdscdma;
+package yukams.app.background_locator_2.cellInfo.models.tdscdma;
 
 
 import androidx.annotation.Keep;
 
-import yukams.app.background_locator_2.models.common.Cell;
+import yukams.app.background_locator_2.cellInfo.models.common.Cell;
 
 import java.io.Serializable;
 @Keep

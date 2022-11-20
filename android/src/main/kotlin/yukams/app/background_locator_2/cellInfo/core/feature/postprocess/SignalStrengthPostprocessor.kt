@@ -1,12 +1,12 @@
-package cz.mroczis.netmonster.core.feature.postprocess
+package yukams.app.background_locator_2.cellInfo.core.feature.postprocess
 
 import android.telephony.CellInfo
 import android.telephony.CellSignalStrength
 import android.telephony.SignalStrength
 import android.telephony.TelephonyManager
-import cz.mroczis.netmonster.core.model.cell.*
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.model.signal.ISignal
+import yukams.app.background_locator_2.cellInfo.core.model.cell.*
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.signal.ISignal
 
 /**
  * Iterates over [SignalStrength] provided by [TelephonyManager] and attempts enrich

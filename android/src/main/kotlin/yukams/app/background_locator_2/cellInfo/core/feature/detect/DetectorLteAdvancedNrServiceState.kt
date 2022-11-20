@@ -1,13 +1,13 @@
-package cz.mroczis.netmonster.core.feature.detect
+package yukams.app.background_locator_2.cellInfo.core.feature.detect
 
 import android.Manifest
 import android.os.Build
 import android.telephony.ServiceState
 import androidx.annotation.RequiresPermission
-import cz.mroczis.netmonster.core.INetMonster
-import cz.mroczis.netmonster.core.db.model.NetworkType
-import cz.mroczis.netmonster.core.model.annotation.SinceSdk
-import cz.mroczis.netmonster.core.telephony.ITelephonyManagerCompat
+import yukams.app.background_locator_2.cellInfo.core.INetMonster
+import yukams.app.background_locator_2.cellInfo.core.db.model.NetworkType
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
+import yukams.app.background_locator_2.cellInfo.core.telephony.ITelephonyManagerCompat
 
 /**
  * Attempts to detect LTE Advanced / LTE Carrier aggregation and NR in NSA mode

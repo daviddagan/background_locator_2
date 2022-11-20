@@ -1,28 +1,28 @@
-package cz.mroczis.netmonster.core.telephony.mapper
+package yukams.app.background_locator_2.cellInfo.core.telephony.mapper
 
 import android.os.Build
 import android.telephony.NeighboringCellInfo
 import android.telephony.TelephonyManager
-import cz.mroczis.netmonster.core.db.NetworkTypeTable
-import cz.mroczis.netmonster.core.db.model.NetworkType
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.annotation.TillSdk
-import cz.mroczis.netmonster.core.model.cell.CellGsm
-import cz.mroczis.netmonster.core.model.cell.CellWcdma
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.connection.NoneConnection
-import cz.mroczis.netmonster.core.model.signal.SignalGsm
-import cz.mroczis.netmonster.core.model.signal.SignalWcdma
-import cz.mroczis.netmonster.core.util.getGsmRssi
-import cz.mroczis.netmonster.core.util.inRangeOrNull
+import yukams.app.background_locator_2.cellInfo.core.db.NetworkTypeTable
+import yukams.app.background_locator_2.cellInfo.core.db.model.NetworkType
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.TillSdk
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellGsm
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellWcdma
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.connection.NoneConnection
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalGsm
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalWcdma
+import yukams.app.background_locator_2.cellInfo.core.util.getGsmRssi
+import yukams.app.background_locator_2.cellInfo.core.util.inRangeOrNull
 
 /**
  * Neighbouring cell info which was deprecated in [Build.VERSION_CODES.M]
  * and direct call to retrieve instances of [NeighboringCellInfo] removed from SDK in [Build.VERSION_CODES.Q].
  *
  * Supports only [ICell] subset:
- *  - [cz.mroczis.netmonster.core.model.cell.CellGsm]
- *  - [cz.mroczis.netmonster.core.model.cell.CellWcdma]
+ *  - [yukams.app.background_locator_2.cellInfo.core.model.cell.CellGsm]
+ *  - [yukams.app.background_locator_2.cellInfo.core.model.cell.CellWcdma]
  */
 @TillSdk(
     sdkInt = Build.VERSION_CODES.Q,

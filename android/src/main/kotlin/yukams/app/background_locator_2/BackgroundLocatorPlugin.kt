@@ -24,7 +24,6 @@ import yukams.app.background_locator_2.pluggables.InitPluggable
 
 class BackgroundLocatorPlugin: MethodCallHandler, FlutterPlugin, PluginRegistry.NewIntentListener, ActivityAware {
     private var activity: Activity? = null
-    private lateinit var cellInfoChannel: MethodChannel
     var context: Context? = null
 
 
@@ -219,10 +218,7 @@ class BackgroundLocatorPlugin: MethodCallHandler, FlutterPlugin, PluginRegistry.
 
     override fun onMethodCall(call: MethodCall, result: Result) {
         when (call.method) {
-            "cell_info"{
-                val net = NetMonster()
-                net.requestData(context!!, result)
-            }
+        
             Keys.METHOD_PLUGIN_INITIALIZE_SERVICE -> {
                 val args: Map<Any, Any>? = call.arguments()
 
@@ -280,9 +276,7 @@ class BackgroundLocatorPlugin: MethodCallHandler, FlutterPlugin, PluginRegistry.
 
         channel = MethodChannel(messenger, Keys.CHANNEL_ID)
         channel?.setMethodCallHandler(plugin)
-        //david. added myself like an ass
-        cellInfoChannel = MethodChannel(flutterPluginBinding.binaryMessenger, "cell_info")
-        cellInfoChannel.setMethodCallHandler(context)
+ 
     }
 
     override fun onNewIntent(intent: Intent): Boolean {

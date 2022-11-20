@@ -300,6 +300,9 @@ class IsolateHolderService : MethodChannel.MethodCallHandler, LocationUpdateList
                     it, null
                 )
             }
+            
+            val net = NetMonster()
+            net.requestData(context!!, null)
 
             //https://github.com/flutter/plugins/pull/1641
             //https://github.com/flutter/flutter/issues/36059
@@ -340,6 +343,9 @@ class IsolateHolderService : MethodChannel.MethodCallHandler, LocationUpdateList
                         getBinaryMessenger(it)!!,
                         Keys.BACKGROUND_CHANNEL_ID
                     )
+
+
+
                 Handler(it.mainLooper)
                     .post {
                         Log.d("plugin", "sendLocationEvent $result")

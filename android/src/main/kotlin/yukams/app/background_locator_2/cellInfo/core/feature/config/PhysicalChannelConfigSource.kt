@@ -1,11 +1,11 @@
-package cz.mroczis.netmonster.core.feature.config
+package yukams.app.background_locator_2.cellInfo.core.feature.config
 
 import android.os.Build
 import android.telephony.TelephonyManager
-import cz.mroczis.netmonster.core.cache.TelephonyCache
-import cz.mroczis.netmonster.core.feature.config.PhysicalChannelConfigSource.PhysicalChannelListener
-import cz.mroczis.netmonster.core.model.config.PhysicalChannelConfig
-import cz.mroczis.netmonster.core.util.SingleEventPhoneStateListener
+import yukams.app.background_locator_2.cellInfo.core.cache.TelephonyCache
+import yukams.app.background_locator_2.cellInfo.core.feature.config.PhysicalChannelConfigSource.PhysicalChannelListener
+import yukams.app.background_locator_2.cellInfo.core.model.config.PhysicalChannelConfig
+import yukams.app.background_locator_2.cellInfo.core.util.SingleEventPhoneStateListener
 
 /**
  * Fetches [PhysicalChannelConfig] from [PhysicalChannelListener]. Those data are currently not publicly

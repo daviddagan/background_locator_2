@@ -1,8 +1,8 @@
-package yukams.app.background_locator_2.models.lte
+package yukams.app.background_locator_2.cellInfo.models.lte
 
-import yukams.app.background_locator_2.models.CellData
-import yukams.app.background_locator_2.models.common.Network
-import cz.mroczis.netmonster.core.model.cell.CellLte
+import yukams.app.background_locator_2.cellInfo.models.CellData
+import yukams.app.background_locator_2.cellInfo.models.common.Network
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellLte
 
 
 fun getLte(cell: CellLte, cellData: CellData): CellLTE {

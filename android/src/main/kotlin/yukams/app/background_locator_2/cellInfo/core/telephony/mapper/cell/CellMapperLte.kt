@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.telephony.mapper.cell
+package yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell
 
 import android.annotation.TargetApi
 import android.os.Build
@@ -6,16 +6,16 @@ import android.telephony.CellIdentityLte
 import android.telephony.CellSignalStrengthLte
 import android.telephony.SignalStrength
 import android.telephony.gsm.GsmCellLocation
-import cz.mroczis.netmonster.core.db.BandTableLte
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.band.AggregatedBandLte
-import cz.mroczis.netmonster.core.model.band.BandLte
-import cz.mroczis.netmonster.core.model.cell.CellLte
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.connection.IConnection
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.model.signal.SignalLte
-import cz.mroczis.netmonster.core.util.*
+import yukams.app.background_locator_2.cellInfo.core.db.BandTableLte
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.band.AggregatedBandLte
+import yukams.app.background_locator_2.cellInfo.core.model.band.BandLte
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellLte
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.connection.IConnection
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalLte
+import yukams.app.background_locator_2.cellInfo.core.util.*
 import kotlin.math.abs
 
 /**

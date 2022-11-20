@@ -1,14 +1,14 @@
-package cz.mroczis.netmonster.core.model.config
+package yukams.app.background_locator_2.cellInfo.core.model.config
 
 import android.os.Build
-import cz.mroczis.netmonster.core.model.annotation.SinceSdk
-import cz.mroczis.netmonster.core.model.band.BandLte
-import cz.mroczis.netmonster.core.model.cell.CellLte
-import cz.mroczis.netmonster.core.model.connection.IConnection
-import cz.mroczis.netmonster.core.model.connection.NoneConnection
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.model.connection.SecondaryConnection
-import cz.mroczis.netmonster.core.util.inRangeOrNull
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
+import yukams.app.background_locator_2.cellInfo.core.model.band.BandLte
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellLte
+import yukams.app.background_locator_2.cellInfo.core.model.connection.IConnection
+import yukams.app.background_locator_2.cellInfo.core.model.connection.NoneConnection
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.connection.SecondaryConnection
+import yukams.app.background_locator_2.cellInfo.core.util.inRangeOrNull
 
 /**
  * This model class is port of AOSP's PhysicalChannelConfig which is currently

@@ -1,9 +1,9 @@
-package cz.mroczis.netmonster.core.subscription.mapper
+package yukams.app.background_locator_2.cellInfo.core.subscription.mapper
 
 import android.annotation.SuppressLint
 import android.os.Build
 import android.telephony.SubscriptionInfo
-import cz.mroczis.netmonster.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.Network
 
 /**
  * Grabs [Network] from [SubscriptionInfo]

@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.feature.config
+package yukams.app.background_locator_2.cellInfo.core.feature.config
 
 import android.Manifest
 import android.annotation.TargetApi
@@ -9,11 +9,11 @@ import android.telephony.TelephonyDisplayInfo
 import android.telephony.TelephonyManager
 import androidx.annotation.RequiresApi
 import androidx.annotation.RequiresPermission
-import cz.mroczis.netmonster.core.cache.TelephonyCache
-import cz.mroczis.netmonster.core.model.DisplayInfo
-import cz.mroczis.netmonster.core.telephony.mapper.toDisplayInfo
-import cz.mroczis.netmonster.core.util.PhoneStateListenerPort
-import cz.mroczis.netmonster.core.util.SingleEventPhoneStateListener
+import yukams.app.background_locator_2.cellInfo.core.cache.TelephonyCache
+import yukams.app.background_locator_2.cellInfo.core.model.DisplayInfo
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.toDisplayInfo
+import yukams.app.background_locator_2.cellInfo.core.util.PhoneStateListenerPort
+import yukams.app.background_locator_2.cellInfo.core.util.SingleEventPhoneStateListener
 
 /**
  * Attempts to fetch fresh [TelephonyDisplayInfo] using [DisplayInfoSource].

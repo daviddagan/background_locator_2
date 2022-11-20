@@ -1,14 +1,14 @@
-package cz.mroczis.netmonster.core.model.cell
+package yukams.app.background_locator_2.cellInfo.core.model.cell
 
 import android.os.Build
 import androidx.annotation.IntRange
-import cz.mroczis.netmonster.core.Milliseconds
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.annotation.SinceSdk
-import cz.mroczis.netmonster.core.model.band.AggregatedBandLte
-import cz.mroczis.netmonster.core.model.band.BandLte
-import cz.mroczis.netmonster.core.model.connection.IConnection
-import cz.mroczis.netmonster.core.model.signal.SignalLte
+import yukams.app.background_locator_2.cellInfo.core.Milliseconds
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
+import yukams.app.background_locator_2.cellInfo.core.model.band.AggregatedBandLte
+import yukams.app.background_locator_2.cellInfo.core.model.band.BandLte
+import yukams.app.background_locator_2.cellInfo.core.model.connection.IConnection
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalLte
 
 data class CellLte(
     override val network: Network?,

@@ -1,11 +1,11 @@
-package cz.mroczis.netmonster.core.telephony.mapper.cell
+package yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell
 
 import android.os.Build
 import android.telephony.CellSignalStrengthLte
 import android.telephony.CellSignalStrengthNr
 import android.telephony.SignalStrength
-import cz.mroczis.netmonster.core.model.cell.CellNr
-import cz.mroczis.netmonster.core.model.connection.SecondaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellNr
+import yukams.app.background_locator_2.cellInfo.core.model.connection.SecondaryConnection
 
 /**
  * Attempts to detect NR in NSA mode. Requires valid LTE and NR signal

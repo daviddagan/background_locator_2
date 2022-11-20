@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.model.cell
+package yukams.app.background_locator_2.cellInfo.core.model.cell
 
 /**
  * Implement me to use advantages of visitor pattern and map instances of

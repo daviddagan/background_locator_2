@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.db
+package yukams.app.background_locator_2.cellInfo.core.db
 
 /**
  * Static table for conversion from MCC to ISO alpha 2 code.

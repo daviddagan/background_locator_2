@@ -1,8 +1,8 @@
-package cz.mroczis.netmonster.core.feature.postprocess
+package yukams.app.background_locator_2.cellInfo.core.feature.postprocess
 
-import cz.mroczis.netmonster.core.model.cell.*
-import cz.mroczis.netmonster.core.model.connection.NoneConnection
-import cz.mroczis.netmonster.core.util.isSamsung
+import yukams.app.background_locator_2.cellInfo.core.model.cell.*
+import yukams.app.background_locator_2.cellInfo.core.model.connection.NoneConnection
+import yukams.app.background_locator_2.cellInfo.core.util.isSamsung
 
 /**
  * Well. There's an Android documentation how invalid values should look like.

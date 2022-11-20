@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.telephony
+package yukams.app.background_locator_2.cellInfo.core.telephony
 
 import android.Manifest
 import android.os.Build
@@ -8,14 +8,14 @@ import android.telephony.SignalStrength
 import android.telephony.TelephonyManager
 import androidx.annotation.RequiresPermission
 import androidx.annotation.WorkerThread
-import cz.mroczis.netmonster.core.callback.CellCallbackError
-import cz.mroczis.netmonster.core.callback.CellCallbackSuccess
-import cz.mroczis.netmonster.core.db.model.NetworkType
-import cz.mroczis.netmonster.core.model.DisplayInfo
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.annotation.SinceSdk
-import cz.mroczis.netmonster.core.model.annotation.TillSdk
-import cz.mroczis.netmonster.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.callback.CellCallbackError
+import yukams.app.background_locator_2.cellInfo.core.callback.CellCallbackSuccess
+import yukams.app.background_locator_2.cellInfo.core.db.model.NetworkType
+import yukams.app.background_locator_2.cellInfo.core.model.DisplayInfo
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.TillSdk
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
 
 interface ITelephonyManagerCompat {
 
@@ -96,10 +96,10 @@ interface ITelephonyManagerCompat {
      * cells.
      *
      * Supports only [ICell] subset:
-     *  - [cz.mroczis.netmonster.core.model.cell.CellCdma]
-     *  - [cz.mroczis.netmonster.core.model.cell.CellGsm]
-     *  - [cz.mroczis.netmonster.core.model.cell.CellWcdma]
-     *  - [cz.mroczis.netmonster.core.model.cell.CellLte]
+     *  - [yukams.app.background_locator_2.cellInfo.core.model.cell.CellCdma]
+     *  - [yukams.app.background_locator_2.cellInfo.core.model.cell.CellGsm]
+     *  - [yukams.app.background_locator_2.cellInfo.core.model.cell.CellWcdma]
+     *  - [yukams.app.background_locator_2.cellInfo.core.model.cell.CellLte]
      *
      * Based on:
      *  - [TelephonyManager.getCellLocation]
@@ -118,8 +118,8 @@ interface ITelephonyManagerCompat {
      * Other networks are not supported. To get more information use [getAllCellInfo].
      *
      * Supports only [ICell] subset:
-     *  - [cz.mroczis.netmonster.core.model.cell.CellGsm]
-     *  - [cz.mroczis.netmonster.core.model.cell.CellWcdma]
+     *  - [yukams.app.background_locator_2.cellInfo.core.model.cell.CellGsm]
+     *  - [yukams.app.background_locator_2.cellInfo.core.model.cell.CellWcdma]
      *
      * Based on:
      *  - [TelephonyManager.getNeighboringCellInfo]

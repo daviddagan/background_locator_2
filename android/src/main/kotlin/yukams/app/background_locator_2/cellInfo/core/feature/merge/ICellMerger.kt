@@ -1,7 +1,7 @@
-package cz.mroczis.netmonster.core.feature.merge
+package yukams.app.background_locator_2.cellInfo.core.feature.merge
 
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.telephony.ITelephonyManagerCompat
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.telephony.ITelephonyManagerCompat
 
 /**
  * Merges two lists of [ICell] into single one without duplicities.

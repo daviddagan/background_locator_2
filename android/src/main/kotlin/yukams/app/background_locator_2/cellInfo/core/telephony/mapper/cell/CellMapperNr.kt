@@ -1,18 +1,18 @@
-package cz.mroczis.netmonster.core.telephony.mapper.cell
+package yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell
 
 import android.annotation.TargetApi
 import android.os.Build
 import android.telephony.CellIdentityNr
 import android.telephony.CellSignalStrengthNr
-import cz.mroczis.netmonster.core.db.BandTableNr
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.band.BandNr
-import cz.mroczis.netmonster.core.model.cell.CellNr
-import cz.mroczis.netmonster.core.model.connection.IConnection
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.model.connection.SecondaryConnection
-import cz.mroczis.netmonster.core.model.signal.SignalNr
-import cz.mroczis.netmonster.core.util.inRangeOrNull
+import yukams.app.background_locator_2.cellInfo.core.db.BandTableNr
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.band.BandNr
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellNr
+import yukams.app.background_locator_2.cellInfo.core.model.connection.IConnection
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.connection.SecondaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalNr
+import yukams.app.background_locator_2.cellInfo.core.util.inRangeOrNull
 
 /**
  * [CellIdentityNr] -> [CellNr]

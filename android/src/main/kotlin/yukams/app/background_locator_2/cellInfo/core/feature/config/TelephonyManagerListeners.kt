@@ -1,12 +1,12 @@
-package cz.mroczis.netmonster.core.feature.config
+package yukams.app.background_locator_2.cellInfo.core.feature.config
 
 import android.os.Build
 import android.telephony.*
 import android.util.Log
 import androidx.annotation.AnyThread
 import androidx.annotation.RequiresApi
-import cz.mroczis.netmonster.core.util.SingleEventPhoneStateListener
-import cz.mroczis.netmonster.core.util.Threads
+import yukams.app.background_locator_2.cellInfo.core.util.SingleEventPhoneStateListener
+import yukams.app.background_locator_2.cellInfo.core.util.Threads
 import java.util.concurrent.*
 
 /**

@@ -1,11 +1,11 @@
-package cz.mroczis.netmonster.core.telephony.network
+package yukams.app.background_locator_2.cellInfo.core.telephony.network
 
 import android.Manifest
 import android.os.Build
 import android.telephony.TelephonyManager
 import androidx.annotation.RequiresPermission
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.telephony.ITelephonyManagerCompat
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.telephony.ITelephonyManagerCompat
 import java.lang.reflect.Method
 
 /**

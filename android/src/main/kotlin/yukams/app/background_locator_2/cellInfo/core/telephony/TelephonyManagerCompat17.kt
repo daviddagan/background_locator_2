@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.telephony
+package yukams.app.background_locator_2.cellInfo.core.telephony
 
 import android.Manifest
 import android.annotation.TargetApi
@@ -8,14 +8,14 @@ import android.telephony.SubscriptionManager
 import android.telephony.TelephonyManager
 import androidx.annotation.RequiresPermission
 import androidx.annotation.WorkerThread
-import cz.mroczis.netmonster.core.callback.CellCallbackError
-import cz.mroczis.netmonster.core.callback.CellCallbackSuccess
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.model.CellError
-import cz.mroczis.netmonster.core.telephony.mapper.CellInfoCallbackMapper
-import cz.mroczis.netmonster.core.telephony.mapper.CellInfoMapper
-import cz.mroczis.netmonster.core.telephony.mapper.CellLocationMapper
-import cz.mroczis.netmonster.core.util.DirectExecutor
+import yukams.app.background_locator_2.cellInfo.core.callback.CellCallbackError
+import yukams.app.background_locator_2.cellInfo.core.callback.CellCallbackSuccess
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.model.CellError
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.CellInfoCallbackMapper
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.CellInfoMapper
+import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.CellLocationMapper
+import yukams.app.background_locator_2.cellInfo.core.util.DirectExecutor
 
 /**
  * Modifies some functionalities of [TelephonyManager] and unifies access to

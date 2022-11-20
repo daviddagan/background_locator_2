@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.util
+package yukams.app.background_locator_2.cellInfo.core.util
 
 /**
  * Returns null if [requirement] returns true

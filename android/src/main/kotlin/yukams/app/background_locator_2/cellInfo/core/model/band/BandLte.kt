@@ -1,9 +1,9 @@
-package cz.mroczis.netmonster.core.model.band
+package yukams.app.background_locator_2.cellInfo.core.model.band
 
 import android.os.Build
 import androidx.annotation.IntRange
-import cz.mroczis.netmonster.core.db.BandTableLte
-import cz.mroczis.netmonster.core.model.annotation.SinceSdk
+import yukams.app.background_locator_2.cellInfo.core.db.BandTableLte
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
 
 @SinceSdk(Build.VERSION_CODES.N)
 data class BandLte(

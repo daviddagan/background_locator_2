@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.db.local
+package yukams.app.background_locator_2.cellInfo.core.db.local
 
 interface ILocalStorage {
 
@@ -6,7 +6,7 @@ interface ILocalStorage {
      * Checks if TAC / LAC endianness in GSM, WCDMA, LTE networks should be flipped
      * no matter what. Applies only for new cell API
      *
-     * @see cz.mroczis.netmonster.core.feature.postprocess.SamsungEndiannessPostprocessor
+     * @see yukams.app.background_locator_2.cellInfo.core.feature.postprocess.SamsungEndiannessPostprocessor
      */
     var locationAreaEndiannessIncorrect: Boolean
 

@@ -1,13 +1,13 @@
-package cz.mroczis.netmonster.core.telephony.mapper.cell
+package yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell
 
 import android.annotation.TargetApi
 import android.os.Build
 import android.telephony.*
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.connection.NoneConnection
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.model.signal.*
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.connection.NoneConnection
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.signal.*
 
 /**
  * Extracts serving cells without signal indicator from [ServiceState].

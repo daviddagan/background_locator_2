@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.model.connection
+package yukams.app.background_locator_2.cellInfo.core.model.connection
 
 /**
  * Device is not connected to this cell was only detected nearby or it's

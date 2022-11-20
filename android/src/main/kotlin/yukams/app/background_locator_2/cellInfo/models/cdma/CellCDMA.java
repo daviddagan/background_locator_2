@@ -1,12 +1,12 @@
-package yukams.app.background_locator_2.models.cdma;
+package yukams.app.background_locator_2.cellInfo.models.cdma;
 
 
 import androidx.annotation.Keep;
 
-import yukams.app.background_locator_2.models.common.Band;
-import yukams.app.background_locator_2.models.common.Cell;
-import yukams.app.background_locator_2.models.nr.BandNR;
-import yukams.app.background_locator_2.models.nr.SignalNR;
+import yukams.app.background_locator_2.cellInfo.models.common.Band;
+import yukams.app.background_locator_2.cellInfo.models.common.Cell;
+import yukams.app.background_locator_2.cellInfo.models.nr.BandNR;
+import yukams.app.background_locator_2.cellInfo.models.nr.SignalNR;
 
 import java.io.Serializable;
 

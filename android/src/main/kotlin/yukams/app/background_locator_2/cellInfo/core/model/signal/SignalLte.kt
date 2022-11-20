@@ -1,9 +1,9 @@
-package cz.mroczis.netmonster.core.model.signal
+package yukams.app.background_locator_2.cellInfo.core.model.signal
 
 import android.os.Build
 import androidx.annotation.IntRange
-import cz.mroczis.netmonster.core.model.annotation.DoubleRange
-import cz.mroczis.netmonster.core.model.annotation.SinceSdk
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.DoubleRange
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
 import kotlin.math.abs
 
 data class SignalLte(
@@ -78,7 +78,7 @@ data class SignalLte(
         get() = rsrp?.toInt()?.plus(140)
 
     /**
-     * Calculates approximate distance to [cz.mroczis.netmonster.core.model.cell.CellLte]
+     * Calculates approximate distance to [yukams.app.background_locator_2.cellInfo.core.model.cell.CellLte]
      * which is assigned to this object.
      *
      * Before [Build.VERSION_CODES.O] [timingAdvance] was not publicly accessible for developers and

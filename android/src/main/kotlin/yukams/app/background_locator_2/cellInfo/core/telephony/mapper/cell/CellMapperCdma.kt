@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.telephony.mapper.cell
+package yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell
 
 import android.annotation.TargetApi
 import android.os.Build
@@ -6,13 +6,13 @@ import android.telephony.CellIdentityCdma
 import android.telephony.CellSignalStrengthCdma
 import android.telephony.SignalStrength
 import android.telephony.cdma.CdmaCellLocation
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.cell.CellCdma
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.connection.IConnection
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.model.signal.SignalCdma
-import cz.mroczis.netmonster.core.util.inRangeOrNull
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellCdma
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.connection.IConnection
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalCdma
+import yukams.app.background_locator_2.cellInfo.core.util.inRangeOrNull
 
 /**
  * [CellSignalStrengthCdma] -> [SignalCdma]

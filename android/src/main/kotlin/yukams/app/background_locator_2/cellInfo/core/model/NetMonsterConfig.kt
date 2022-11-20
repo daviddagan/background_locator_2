@@ -1,7 +1,7 @@
-package cz.mroczis.netmonster.core.model
+package yukams.app.background_locator_2.cellInfo.core.model
 
 /**
- * Configuration that affects [cz.mroczis.netmonster.core.INetMonster]'s behaviour
+ * Configuration that affects [yukams.app.background_locator_2.cellInfo.core.INetMonster]'s behaviour
  */
 data class NetMonsterConfig(
     /**

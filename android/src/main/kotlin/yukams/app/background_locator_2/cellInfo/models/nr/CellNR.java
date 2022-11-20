@@ -1,11 +1,11 @@
-package yukams.app.background_locator_2.models.nr;
+package yukams.app.background_locator_2.cellInfo.models.nr;
 
 
 import androidx.annotation.Keep;
 
-import yukams.app.background_locator_2.models.common.Cell;
-import yukams.app.background_locator_2.models.lte.BandLTE;
-import yukams.app.background_locator_2.models.lte.SignalLTE;
+import yukams.app.background_locator_2.cellInfo.models.common.Cell;
+import yukams.app.background_locator_2.cellInfo.models.lte.BandLTE;
+import yukams.app.background_locator_2.cellInfo.models.lte.SignalLTE;
 
 import java.io.Serializable;
 @Keep

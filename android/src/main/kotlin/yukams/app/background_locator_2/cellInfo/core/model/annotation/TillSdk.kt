@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.model.annotation
+package yukams.app.background_locator_2.cellInfo.core.model.annotation
 
 import android.os.Build
 

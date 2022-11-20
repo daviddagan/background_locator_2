@@ -1,7 +1,7 @@
-package cz.mroczis.netmonster.core.feature.merge
+package yukams.app.background_locator_2.cellInfo.core.feature.merge
 
-import cz.mroczis.netmonster.core.model.cell.*
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.cell.*
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
 
 /**
  * Merges cells with cells from network registration info.

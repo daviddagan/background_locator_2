@@ -1,10 +1,10 @@
-package cz.mroczis.netmonster.core.feature.merge
+package yukams.app.background_locator_2.cellInfo.core.feature.merge
 
-import cz.mroczis.netmonster.core.model.cell.CellNr
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.connection.NoneConnection
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.model.connection.SecondaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellNr
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.connection.NoneConnection
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.connection.SecondaryConnection
 
 /**
  * Merges data from new API represented by [CellSource.ALL_CELL_INFO] and

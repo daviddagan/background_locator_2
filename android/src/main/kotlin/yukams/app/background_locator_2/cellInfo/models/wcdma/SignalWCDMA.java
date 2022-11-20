@@ -1,8 +1,8 @@
-package yukams.app.background_locator_2.models.wcdma;
+package yukams.app.background_locator_2.cellInfo.models.wcdma;
 
 import androidx.annotation.Keep;
 
-import yukams.app.background_locator_2.models.common.Signal;
+import yukams.app.background_locator_2.cellInfo.models.common.Signal;
 
 import java.io.Serializable;
 @Keep

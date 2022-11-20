@@ -1,19 +1,19 @@
-package cz.mroczis.netmonster.core.feature.detect
+package yukams.app.background_locator_2.cellInfo.core.feature.detect
 
 import android.Manifest
 import android.os.Build
 import androidx.annotation.RequiresPermission
 import androidx.annotation.VisibleForTesting
-import cz.mroczis.netmonster.core.INetMonster
-import cz.mroczis.netmonster.core.db.NetworkTypeTable
-import cz.mroczis.netmonster.core.db.model.NetworkType
-import cz.mroczis.netmonster.core.feature.merge.CellSource
-import cz.mroczis.netmonster.core.model.annotation.Experimental
-import cz.mroczis.netmonster.core.model.annotation.SinceSdk
-import cz.mroczis.netmonster.core.model.cell.CellLte
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.telephony.ITelephonyManagerCompat
+import yukams.app.background_locator_2.cellInfo.core.INetMonster
+import yukams.app.background_locator_2.cellInfo.core.db.NetworkTypeTable
+import yukams.app.background_locator_2.cellInfo.core.db.model.NetworkType
+import yukams.app.background_locator_2.cellInfo.core.feature.merge.CellSource
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.Experimental
+import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellLte
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.telephony.ITelephonyManagerCompat
 
 
 /**

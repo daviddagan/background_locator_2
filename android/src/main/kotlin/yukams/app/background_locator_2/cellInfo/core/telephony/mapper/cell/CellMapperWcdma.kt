@@ -1,4 +1,4 @@
-package cz.mroczis.netmonster.core.telephony.mapper.cell
+package yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell
 
 import android.annotation.TargetApi
 import android.os.Build
@@ -7,19 +7,19 @@ import android.telephony.CellSignalStrengthGsm
 import android.telephony.CellSignalStrengthWcdma
 import android.telephony.SignalStrength
 import android.telephony.gsm.GsmCellLocation
-import cz.mroczis.netmonster.core.db.BandTableWcdma
-import cz.mroczis.netmonster.core.model.Network
-import cz.mroczis.netmonster.core.model.band.BandWcdma
-import cz.mroczis.netmonster.core.model.cell.CellWcdma
-import cz.mroczis.netmonster.core.model.cell.ICell
-import cz.mroczis.netmonster.core.model.connection.IConnection
-import cz.mroczis.netmonster.core.model.connection.PrimaryConnection
-import cz.mroczis.netmonster.core.model.signal.SignalGsm
-import cz.mroczis.netmonster.core.model.signal.SignalWcdma
-import cz.mroczis.netmonster.core.util.Reflection
-import cz.mroczis.netmonster.core.util.toDbm
-import cz.mroczis.netmonster.core.util.getGsmRssi
-import cz.mroczis.netmonster.core.util.inRangeOrNull
+import yukams.app.background_locator_2.cellInfo.core.db.BandTableWcdma
+import yukams.app.background_locator_2.cellInfo.core.model.Network
+import yukams.app.background_locator_2.cellInfo.core.model.band.BandWcdma
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellWcdma
+import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
+import yukams.app.background_locator_2.cellInfo.core.model.connection.IConnection
+import yukams.app.background_locator_2.cellInfo.core.model.connection.PrimaryConnection
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalGsm
+import yukams.app.background_locator_2.cellInfo.core.model.signal.SignalWcdma
+import yukams.app.background_locator_2.cellInfo.core.util.Reflection
+import yukams.app.background_locator_2.cellInfo.core.util.toDbm
+import yukams.app.background_locator_2.cellInfo.core.util.getGsmRssi
+import yukams.app.background_locator_2.cellInfo.core.util.inRangeOrNull
 
 private val REGEX_BIT_ERROR = "ber=([^ ]*)".toRegex()
 private val REGEX_RSCP = "rscp=([^ ]*)".toRegex()

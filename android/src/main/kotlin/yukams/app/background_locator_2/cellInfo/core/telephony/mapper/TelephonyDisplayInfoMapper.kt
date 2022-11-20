@@ -1,10 +1,10 @@
-package cz.mroczis.netmonster.core.telephony.mapper
+package yukams.app.background_locator_2.cellInfo.core.telephony.mapper
 
 import android.annotation.TargetApi
 import android.os.Build
 import android.telephony.TelephonyDisplayInfo
-import cz.mroczis.netmonster.core.db.NetworkTypeTable
-import cz.mroczis.netmonster.core.model.DisplayInfo
+import yukams.app.background_locator_2.cellInfo.core.db.NetworkTypeTable
+import yukams.app.background_locator_2.cellInfo.core.model.DisplayInfo
 
 @TargetApi(Build.VERSION_CODES.R)
 internal fun TelephonyDisplayInfo.toDisplayInfo() = DisplayInfo(

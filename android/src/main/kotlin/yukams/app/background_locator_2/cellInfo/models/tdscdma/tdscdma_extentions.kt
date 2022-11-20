@@ -1,8 +1,8 @@
-package yukams.app.background_locator_2.models.tdscdma
+package yukams.app.background_locator_2.cellInfo.models.tdscdma
 
-import yukams.app.background_locator_2.models.CellData
-import yukams.app.background_locator_2.models.common.Network
-import cz.mroczis.netmonster.core.model.cell.CellTdscdma
+import yukams.app.background_locator_2.cellInfo.models.CellData
+import yukams.app.background_locator_2.cellInfo.models.common.Network
+import yukams.app.background_locator_2.cellInfo.core.model.cell.CellTdscdma
 
 fun getTdscdma(cell: CellTdscdma, cellData: CellData): CellTDSCDMA {
 
