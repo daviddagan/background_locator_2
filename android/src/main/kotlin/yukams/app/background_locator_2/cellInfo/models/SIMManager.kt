@@ -1,4 +1,4 @@
-package yukams.app.background_locator_2.models
+package yukams.app.background_locator_2.cellInfo.models
 
 import android.Manifest
 import android.content.Context
@@ -7,7 +7,6 @@ import android.os.Build
 import android.telephony.SubscriptionInfo
 import android.telephony.SubscriptionManager
 import android.telephony.TelephonyManager
-import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.core.app.ActivityCompat
 import java.lang.reflect.Method

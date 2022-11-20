@@ -1,4 +1,4 @@
-package yukams.app.background_locator_2.models;
+package yukams.app.background_locator_2.cellInfo.models;
 
 import androidx.annotation.Keep;
 
