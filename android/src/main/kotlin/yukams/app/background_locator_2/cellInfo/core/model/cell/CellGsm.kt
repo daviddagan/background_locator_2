@@ -2,7 +2,7 @@ package yukams.app.background_locator_2.cellInfo.core.model.cell
 
 import android.os.Build
 import androidx.annotation.IntRange
-import yukams.app.background_locator_2.cellInfo.core.Milliseconds
+import cz.mroczis.netmonster.core.Milliseconds
 import yukams.app.background_locator_2.cellInfo.core.model.Network
 import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
 import yukams.app.background_locator_2.cellInfo.core.model.band.BandGsm

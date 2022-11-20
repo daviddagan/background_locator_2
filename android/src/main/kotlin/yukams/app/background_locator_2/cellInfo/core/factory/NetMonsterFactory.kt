@@ -3,7 +3,7 @@ package yukams.app.background_locator_2.cellInfo.core.factory
 import android.content.Context
 import android.os.Build
 import cz.mroczis.netmonster.core.INetMonster
-import yukams.app.background_locator_2.cellInfo.core.NetMonster
+import cz.mroczis.netmonster.core.NetMonster
 import yukams.app.background_locator_2.cellInfo.core.model.NetMonsterConfig
 import yukams.app.background_locator_2.cellInfo.core.subscription.ISubscriptionManagerCompat
 import yukams.app.background_locator_2.cellInfo.core.subscription.SubscriptionManagerCompat14

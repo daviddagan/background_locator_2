@@ -5,7 +5,7 @@ import android.annotation.TargetApi
 import android.os.Build
 import android.telephony.*
 import androidx.annotation.RequiresPermission
-import yukams.app.background_locator_2.cellInfo.core.Milliseconds
+import cz.mroczis.netmonster.core.Milliseconds
 import yukams.app.background_locator_2.cellInfo.core.model.cell.ICell
 import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell.mapCell
 import yukams.app.background_locator_2.cellInfo.core.telephony.mapper.cell.mapConnection
