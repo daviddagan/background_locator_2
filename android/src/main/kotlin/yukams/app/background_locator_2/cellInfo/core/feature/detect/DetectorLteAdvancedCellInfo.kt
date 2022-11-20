@@ -4,7 +4,7 @@ import android.Manifest
 import android.os.Build
 import androidx.annotation.RequiresPermission
 import androidx.annotation.VisibleForTesting
-import yukams.app.background_locator_2.cellInfo.core.INetMonster
+import cz.mroczis.netmonster.core.INetMonster
 import yukams.app.background_locator_2.cellInfo.core.db.NetworkTypeTable
 import yukams.app.background_locator_2.cellInfo.core.db.model.NetworkType
 import yukams.app.background_locator_2.cellInfo.core.feature.merge.CellSource

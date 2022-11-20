@@ -3,7 +3,7 @@ package yukams.app.background_locator_2.cellInfo.core.feature.detect
 import android.Manifest
 import android.telephony.ServiceState
 import androidx.annotation.RequiresPermission
-import yukams.app.background_locator_2.cellInfo.core.INetMonster
+import cz.mroczis.netmonster.core.INetMonster
 import yukams.app.background_locator_2.cellInfo.core.db.model.NetworkType
 import yukams.app.background_locator_2.cellInfo.core.feature.NrNsaStateParser
 import yukams.app.background_locator_2.cellInfo.core.telephony.ITelephonyManagerCompat

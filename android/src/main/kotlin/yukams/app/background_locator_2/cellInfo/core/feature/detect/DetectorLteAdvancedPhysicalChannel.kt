@@ -1,7 +1,7 @@
 package yukams.app.background_locator_2.cellInfo.core.feature.detect
 
 import android.os.Build
-import yukams.app.background_locator_2.cellInfo.core.INetMonster
+import cz.mroczis.netmonster.core.INetMonster
 import yukams.app.background_locator_2.cellInfo.core.db.NetworkTypeTable
 import yukams.app.background_locator_2.cellInfo.core.db.model.NetworkType
 import yukams.app.background_locator_2.cellInfo.core.model.annotation.SinceSdk
